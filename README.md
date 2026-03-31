@@ -1,8 +1,10 @@
-# Selenium WebDriver Test Automation - Automation Exercise
+# Selenium WebDriver Test Automation - Module 7 Task
 
-This project implements a test automation framework for the **Module 7 Task** web application using **Selenium WebDriver**, **Java**, and **TestNG**, applying the **Page Object Model (POM)** design pattern and automation best practices.
+This project implements a test automation framework for the **Module 7 Task** using the web application [https://automationexercise.com](https://automationexercise.com). It is built with **Selenium WebDriver**, **Java**, and **TestNG**, following the **Page Object Model (POM)** design pattern and automation best practices.
 
-The framework covers 3 linear test scenarios based on public test cases from the application.
+The framework automates 3 linear test scenarios based on public test cases from the application (Test Case 1, 2, and 16).
+
+Logging is implemented using Log4j to provide detailed test execution insights, improving debugging, monitoring, and traceability.
 
 ---
 
@@ -133,9 +135,9 @@ testng.xml
 
 Execution generates:
 
-PASS Tests Screenshots in /evidence
-NOT PASS Tests Screenshots in /screenshots
-Logs in /logs/test-execution.log
+- PASS Tests Screenshots in /evidence
+- NOT PASS Tests Screenshots in /screenshots
+- Logs in /logs/test-execution.log
 
 # 👨‍💻 Author
 
